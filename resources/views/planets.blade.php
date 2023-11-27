@@ -18,11 +18,11 @@
                             {{route('home.planets.descriptions', $planet->id)}}
                             @else
                             {{route('home.planets.sub-planets', $planet->id)}}
-                            @endif"><i
-                                    class="fa fa-play-circle animated fa-3x fa-3x"></i></a>
-                        </div>
-                        <div style="margin-left: 58%; margin-top: 20px;">
-                            {{ $planet->title }}
+                            @endif"><i class="fa fa-play-circle animated fa-3x fa-3x"></i>
+                                <div style="margin-left: 58%; margin-top: 20px;">
+                                    {{ $planet->title }}
+                                </div>
+                            </a>
                         </div>
                     </div>
 
